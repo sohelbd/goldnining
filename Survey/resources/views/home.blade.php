@@ -3,8 +3,6 @@
 
 @section('content')
 
-
-
 <link href="{{ asset('assets/css/styles.css') }}" rel="stylesheet" type="text/css" >
   <!-- Page content -->
   <div class="row">
@@ -15,29 +13,29 @@
             <legend class="scheduler-border">LOACTION</legend>
          <tr>
            <td><label> PREIOD NO</label></td>
-           <td><input type="number" style="width: 100px " id="Preiod" name="Preiod" required/></td>
+           <td><input type="number" id="Preiod" name="Preiod" required/></td>
            
            <td><label>CAPITAL</label></td>
-           <td><input type="number" id="capital" style="width: 100px " name="capital" required/></td>
+           <td><input type="number" id="capital" name="capital" required/></td>
          </tr>
          <tr>
            <td><label>SHAFT</label></td>
-           <td><input type="number" id="shaft" style="width: 100px " name="shaft" required/></td>
+           <td><input type="number" id="shaft" name="shaft" required/></td>
            
            <td><label>LEASE</label></td>
-           <td><input type="number" id="lease" style="width: 100px " name="lease" /></td>
+           <td><input type="number" id="lease" name="lease" /></td>
          </tr>
          <tr>
           <td><label>LEVEL</label></td>
-          <td><input type="number" id="level" style="width: 100px " name="level" /></td>
+          <td><input type="number" id="level" name="level" /></td>
 
           <td><label>MINEMETH</label></td>
-          <td><input type="text" id="minemeth" style="width: 100px " name="minemeth" /></td>
+          <td><input type="text" id="minemeth" name="minemeth" /></td>
          
         </tr>
           <td><label>HEADING</label></td>
           <td>
-             <select id="heading" style="width: 100px " name="heading">
+             <select id="heading" name="heading">
                  <option value="s">Select</option>
                  <option value="a">a</option>
                  <option value="b">b</option>
@@ -55,31 +53,31 @@
             <legend class="scheduler-border">SERVEY</legend>
          <tr>
            <td><label> PREIOD</label></td>
-           <td><input type="number" style="width: 100px " id="Preiod" name="Preiod" required/></td>
+           <td><input type="number" id="Preiod" name="Preiod" required/></td>
            
            <td><label>CAPITAL</label></td>
-           <td><input type="number" style="width: 100px " id="capital" name="capital" required/></td>
+           <td><input type="number" id="capital" name="capital" required/></td>
          </tr>
          <tr>
            <td><label>SHAFT</label></td>
-           <td><input type="number" style="width: 100px " id="shaft" name="shaft" required/></td>
+           <td><input type="number" id="shaft" name="shaft" required/></td>
            
            <td><label>LEASE</label></td>
-           <td><input type="number" style="width: 100px " id="lease" name="lease" /></td>
+           <td><input type="number" id="lease" name="lease" /></td>
          </tr>
          <tr>
           <td><label>LEVEL</label></td>
-          <td><input type="number" style="width: 100px " id="level" name="level" /></td>
+          <td><input type="number" id="level" name="level" /></td>
 
           <td><label>MINEMETH</label></td>
-          <td><input type="text" style="width: 100px " id="minemeth" name="minemeth" /></td>
+          <td><input type="text" id="minemeth" name="minemeth" /></td>
         </tr>
          <tr>
           <td><label>LEVEL</label></td>
-          <td><input type="number" style="width: 100px " id="level" name="level" /></td>
+          <td><input type="number" id="level" name="level" /></td>
 
           <td><label>MINEMETH</label></td>
-          <td><input type="text" style="width: 100px " id="minemeth" name="minemeth" /></td>
+          <td><input type="text" id="minemeth" name="minemeth" /></td>
         </tr>
        </table>
             </fieldset>
@@ -91,7 +89,7 @@
                  </tr>
           <td><label>SHAFT</label></td>
           <td>
-             <select id="heading" style="width: 100px " name="heading">
+             <select id="heading" name="heading">
                  <option value="s">Select</option>
                  <option value="a">a</option>
                  <option value="b">b</option>
@@ -102,7 +100,7 @@
          </tr>
          <tr>
            <td><label>HEADING</label></td>
-           <td><input type="number" style="width: 100px " id="shaft" name="shaft" required/></td>
+           <td><input type="number" id="shaft" name="shaft" required/></td>
            
          </tr>         
        </table>
@@ -127,36 +125,36 @@
             <legend class="scheduler-border">SURVEY GEOLOGY</legend>
          <tr>
            <td><label> MISC M3 ORE</label></td>
-           <td><input type="number" style="width: 100px " id="Preiod" name="Preiod" required/></td>
+           <td><input type="number" id="Preiod" name="Preiod" required/></td>
            
            <td><label> MISC M3 WASTE</label></td>
-           <td><input type="number" id="capital" style="width: 100px " name="capital" required/></td>
+           <td><input type="number" id="capital" name="capital" required/></td>
          </tr>
          <tr>
            <td><label>SURVEY WIDTH</label></td>
-           <td><input type="number" id="shaft" style="width: 100px " name="shaft" required/></td>
+           <td><input type="number" id="shaft" name="shaft" required/></td>
            
            <td><label>SURVEY HEIGHT</label></td>
-           <td><input type="number" id="lease" style="width: 100px " name="lease" /></td>
+           <td><input type="number" id="lease" name="lease" /></td>
          </tr>
          <tr>
           <td><label>OREBODY_WIDTH</label></td>
-          <td><input type="number" id="level" style="width: 100px " name="level" /></td>
+          <td><input type="number" id="level" name="level" /></td>
 
           <td><label> M G/T</label></td>
-          <td><input type="text" id="minemeth" style="width: 100px " name="minemeth" /></td>
+          <td><input type="text" id="minemeth" name="minemeth" /></td>
         </tr>
         <tr>
           <td><label> S/G</label></td>
-          <td><input type="text" id="minemeth" style="width: 100px " name="minemeth" /></td>
+          <td><input type="text" id="minemeth" name="minemeth" /></td>
           <td><label> OUNCE</label></td>
-          <td><input type="text" id="minemeth" style="width: 100px " name="minemeth" /></td>
+          <td><input type="text" id="minemeth" name="minemeth" /></td>
         
          
         </tr>
           <td><label>Heading</label></td>
           <td>
-             <select id="heading" style="width: 100px " name="heading">
+             <select id="heading" name="heading">
                  <option value="s">Select</option>
                  <option value="a">a</option>
                  <option value="b">b</option>
@@ -174,39 +172,39 @@
             <legend class="scheduler-border">TONNAGE</legend>
          <tr>
            <td><label> TONNES ORE</label></td>
-           <td><input type="number" style="width: 100px " id="Preiod" name="Preiod" required/></td>
+           <td><input type="number" id="Preiod" name="Preiod" required/></td>
            
            <td><label>TONNES WASTE</label></td>
-           <td><input type="number" style="width: 100px " id="capital" name="capital" required/></td>
+           <td><input type="number" id="capital" name="capital" required/></td>
 
            <td><label>OPEN SP TONNES</label></td>
-           <td><input type="number" style="width: 100px " id="shaft" name="shaft" required/></td>
+           <td><input type="number" id="shaft" name="shaft" required/></td>
           </tr>
          <tr>          
            <td><label>OPEN SP GT</label></td>
-           <td><input type="number" style="width: 100px " id="lease" name="lease" /></td>
+           <td><input type="number" id="lease" name="lease" /></td>
           <td><label>MVMT SP GT</label></td>
-          <td><input type="number" style="width: 100px " id="level" name="level" /></td>
+          <td><input type="number" id="level" name="level" /></td>
 
           <td><label>MVMT SP TONNES</label></td>
-          <td><input type="text" style="width: 100px " id="minemeth" name="minemeth" /></td>
+          <td><input type="text" id="minemeth" name="minemeth" /></td>
         </tr>
          <tr>
           <td><label>CLOSE SP TONNES</label></td>
-          <td><input type="number" style="width: 100px " id="level" name="level" /></td>
+          <td><input type="number" id="level" name="level" /></td>
 
           <td><label> COLOSE SP G/T</label></td>
-          <td><input type="text" style="width: 100px " id="minemeth" name="minemeth" /></td>
+          <td><input type="text" id="minemeth" name="minemeth" /></td>
 
           <td><label>TG/T</label></td>
-          <td><input type="number" style="width: 100px " id="level" name="level" /></td>
+          <td><input type="number" id="level" name="level" /></td>
          </tr>
          <tr>
           <td><label> T_TONNES</label></td>
-          <td><input type="text" style="width: 100px " id="minemeth" name="minemeth" /></td>
+          <td><input type="text" id="minemeth" name="minemeth" /></td>
 
           <td><label>TONNES CLAIMED</label></td>
-          <td><input type="number" style="width: 100px " id="level" name="level" /></td>
+          <td><input type="number" id="level" name="level" /></td>
 
         </tr>
        </table>
