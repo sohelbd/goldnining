@@ -1,0 +1,2 @@
+# gold-mining
+ software
